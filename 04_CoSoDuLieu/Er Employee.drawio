@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" modified="2024-03-22T07:57:25.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="elayuP0tlq1A27Ol3fzh" version="24.0.7" type="device">
+  <diagram name="Page-1" id="POW1FE-CcxZ714uBQ3bs">
+    <mxGraphModel dx="1668" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GliboUO-n_ny_3__q7KX-1" value="CONGTRINH" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-3" value="(1,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-4" value="MACT" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4;strokeColor=#000000;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="185" y="80" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-5" value="TENCT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="120" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-6" value="DIADIEM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="205" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-7" value="NGAYCAPGP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-8" value="NGAYKC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-9" value="NGAYHT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="435" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.357;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-1" target="GliboUO-n_ny_3__q7KX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="230" as="sourcePoint" />
+            <mxPoint x="255" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-11" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.083;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-7" target="GliboUO-n_ny_3__q7KX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="340" as="sourcePoint" />
+            <mxPoint x="245" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.333;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.793;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-8" target="GliboUO-n_ny_3__q7KX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="380" as="sourcePoint" />
+            <mxPoint x="220" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-13" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.08;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-1" target="GliboUO-n_ny_3__q7KX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="230" as="sourcePoint" />
+            <mxPoint x="200" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-14" value="" style="endArrow=none;html=1;rounded=0;exitX=0.553;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-9" target="GliboUO-n_ny_3__q7KX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.002;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-6" target="GliboUO-n_ny_3__q7KX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="300" as="sourcePoint" />
+            <mxPoint x="300" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-16" value="NHANVIEN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-18" value="MANV" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4;strokeColor=#000000;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-19" value="PHAI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-20" value="DIACHI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="145" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-21" value="NGSINH" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-22" value="HOTEN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="215" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.357;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-16" target="GliboUO-n_ny_3__q7KX-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="210" as="sourcePoint" />
+            <mxPoint x="679" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.886;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-21" target="GliboUO-n_ny_3__q7KX-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="360" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.08;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-16" target="GliboUO-n_ny_3__q7KX-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="210" as="sourcePoint" />
+            <mxPoint x="610" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-27" value="" style="endArrow=none;html=1;rounded=0;exitX=0.006;exitY=0.453;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-22" target="GliboUO-n_ny_3__q7KX-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="340" as="sourcePoint" />
+            <mxPoint x="710" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-28" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.833;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-20" target="GliboUO-n_ny_3__q7KX-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="280" as="sourcePoint" />
+            <mxPoint x="700" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-29" value="THAMGIA" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-31" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-1" target="GliboUO-n_ny_3__q7KX-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="380" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-32" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.428;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-29" target="GliboUO-n_ny_3__q7KX-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="sourcePoint" />
+            <mxPoint x="570" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-33" value="SLNGAYCONG" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-29" target="GliboUO-n_ny_3__q7KX-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417.5" y="205" as="sourcePoint" />
+            <mxPoint x="467.5" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-35" value="(1,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-37" value="PHONGBAN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-38" value="LAMVIEC" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="390" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-38" target="GliboUO-n_ny_3__q7KX-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="370" as="sourcePoint" />
+            <mxPoint x="690" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-40" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-37" target="GliboUO-n_ny_3__q7KX-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="420" as="sourcePoint" />
+            <mxPoint x="560" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-41" value="(1,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-42" value="(1,1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-43" value="MAPB" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4;strokeColor=#000000;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="330" y="525" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-44" value="TENPB" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="530" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.566;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.762;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-44" target="GliboUO-n_ny_3__q7KX-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="530" as="sourcePoint" />
+            <mxPoint x="700" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GliboUO-n_ny_3__q7KX-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GliboUO-n_ny_3__q7KX-43" target="GliboUO-n_ny_3__q7KX-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
