@@ -372,3 +372,60 @@ ADD CONSTRAINT CKGV_TUOI CHECK (YEAR(NGVL) - YEAR(NGSINH) >= 22)
 
 ALTER TABLE MONHOC
 ADD CONSTRAINT CK_TC CHECK (ABS(TCLT- TCTH ) <= 3)
+
+/*
+	6. Bài tập 6
+Sinh viên hoàn thành Phần III bài tập QuanLyGiaoVu từ câu 1 đến câu 5.
+*/
+
+-- 1.	In ra danh sách (mã học viên, họ tên, ngày sinh, mã lớp) lớp trưởng của các lớp.
+
+SELECT * FROM LOP
+
+		SELECT hv.MAHV, hv.HO + ' '+ hv.TEN AS HOTEN, hv.NGSINH, hv.MALOP
+		FROM HOCVIEN hv RIGHT JOIN LOP l
+		ON hv.MALOP = l.MALOP
+		WHERE l.TRGLOP = hv.MAHV
+
+-- 2.	In ra bảng điểm khi thi (mã học viên, họ tên, lần thi, điểm số) môn CTRR của lớp “K12”,
+-- sắp xếp theo tên, họ học viên.
+
+			SELECT hv.MAHV , hv.HO + ' ' + hv.TEN AS HOTEN , kq.LANTHI , kq.DIEM
+			FROM KETQUATHI kq JOIN HOCVIEN hv
+			ON kq.MAHV = hv.MAHV JOIN LOP l
+			ON l.MALOP = hv.MALOP
+			WHERE kq.MAMH = 'CTRR' AND hv.MALOP = 'k12'
+			ORDER BY hv.TEN , hv.HO
+
+ -- 3.	In ra danh sách những học viên (mã học viên, họ tên) 
+ -- và những môn học mà học viên đó thi lần thứ nhất đã đạt.
+		SELECT * FROM HOCVIEN
+		SELECT * FROM KETQUATHI
+
+		SELECT hv.MAHV , hv.HO + ' ' + hv.TEN AS HOTEN, kq.KQUA
+		FROM HOCVIEN hv JOIN KETQUATHI kq
+		ON hv.MAHV = kq.MAHV
+		WHERE kq.LANTHI = 1 AND kq.KQUA = 'Dat'
+
+-- 4.	In ra danh sách học viên (mã học viên, họ tên) của lớp “K11” thi môn CTRR không đạt (ở lần thi 1).
+
+SELECT *FROM MONHOC
+
+		SELECT hv.MAHV , hv.HO + ' ' + hv.TEN AS HOTEN, kq.KQUA
+		FROM HOCVIEN hv JOIN KETQUATHI kq
+		ON hv.MAHV = kq.MAHV JOIN LOP lp
+		ON lp.MALOP = hv.MALOP
+		WHERE lp.MALOP = 'K11' AND kq.MAMH = 'CTRR' AND kq.KQUA = 'Khong Dat'
+		AND kq.LANTHI = 1
+
+-- 5.	* Danh sách học viên (mã học viên, họ tên) của lớp “K” thi môn CTRR không đạt (ở tất cả các lần thi).
+		SELECT hv.MAHV , hv.HO + ' ' + hv.TEN AS HOTEN, kq.KQUA, kq.LANTHI
+		FROM HOCVIEN hv JOIN KETQUATHI kq
+		ON kq.MAHV = hv.MAHV
+		WHERE hv.MALOP LIKE 'k%%'
+		AND hv.MAHV NOT IN(
+			SELECT kq.MAHV
+			FROM KETQUATHI kq 
+			WHERE kq.MAMH = 'CTRR' AND kq.KQUA = 'Dat'
+		)
+
